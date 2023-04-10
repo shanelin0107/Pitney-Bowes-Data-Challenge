@@ -30,5 +30,20 @@ The five attributes with the highest correlation were "discharging_rate_lag_3", 
 
 ![PB Flow Chart](https://user-images.githubusercontent.com/104215135/230980178-4dd91b99-0f62-4ae4-a561-1c2bf548b159.png)
 
+# Model Performance Metrics
+
+![Accuracy Score](https://user-images.githubusercontent.com/104215135/230980378-1d12ea95-c7a3-419c-a331-d606ce9f1039.png)
+
+# Result Outputs
+
+![Predicted_Fail_7](https://user-images.githubusercontent.com/104215135/230980449-635908af-0e64-4764-b4bf-c15e08c2ca02.png)
+
+# Conclusion
+
+We can predict equipment failures by their historical performance. Among many attributes, finding o=out the features importnace would help to imporve a model's accuracy.
+
+Logistic Regression usually is used to predict one dependent binary variable by one or more nominal, ordinal, interval or ratio-level independent variables.
+
+The model predicted outcomes through machine learning algorithm and assist the company to improve their organizational decision-making.
 
 
