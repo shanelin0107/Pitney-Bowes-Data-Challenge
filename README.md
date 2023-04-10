@@ -22,4 +22,13 @@ Considering that the time difference between the LastRecord and DateDeployed wou
 As more than 40K observations are still to much, we prepare a 1000 small data subset from the train file to do Random Forest Regression. And get result as follow:
 ![Variable Importances](https://user-images.githubusercontent.com/104215135/230979467-d0982238-0146-4d52-92ff-0c36e7f0e157.png)
 
+25 attributes were selected which were considered to affect machine failure.
+
+The five attributes with the highest correlation were "discharging_rate_lag_3", "charge_cycle_time_below_12", "avg_time_discharging_lag11", "piececount", "used_days".
+
+# Modeling
+
+![PB Flow Chart](https://user-images.githubusercontent.com/104215135/230980178-4dd91b99-0f62-4ae4-a561-1c2bf548b159.png)
+
+
 
